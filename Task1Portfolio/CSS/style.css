@@ -1,0 +1,229 @@
+
+
+body {
+    font-family:"monospace,"Courier New";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #8eecf5;
+    color: black;
+    padding: 1em 0;
+    text-align: right;
+    border-radius: 9px;
+    margin: 10px 10px 10px 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:  inline-grid;
+    margin: 0 1em;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 25px 10px 10px 25px;
+    margin:  31px 10px 10px 31px;
+    border-: 10px;
+    h2{
+        font-family: "monospace","Courier New";
+    }
+}
+
+section#about {
+    background-color: #d2b3e4;
+
+    h2{
+        font-family: "monospace", "Courier New";
+        margin: 9px;
+        padding: 9px;
+    }
+    p{
+        margin: 48px 2px 224px 8px;
+        font-family: "Serif", "Times New Roman";
+        padding: 17px 61px 120px 2px;
+        text-align: left;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: row; /* Change to row to place items side by side */
+        align-items: center;
+        justify-content: center; /* Center the items horizontally */
+        text-align: left; /* Align text to the left */
+        padding: 0px; /* Optional: adds some padding around the container */
+        margin: 6px;
+    }
+    
+    .text {
+      margin-right: auto; /* Adds some space between the paragraph and the image */
+    }
+    
+    img {
+        border: 1px solid lightcyan;
+        border-radius: 4px;
+        padding: 13px 20px 30px 9px;
+        width: 200px;
+        border-top-left-radius: 8px;
+        margin: 8px 36px 28px 32px;;
+    }
+    
+    
+}
+
+section#skills {
+    background-color: #d2b3e4;
+    h2{
+        font-family: "monospace","Courier New";
+    }
+    p{
+        font-family: "Serif","Times New Roman";
+    }
+  
+    *{box-sizing:border-box}
+
+    .container {
+      width: 100%; 
+      background-color: #ddd; 
+    }
+    
+    .skills {
+      text-align: right; 
+      padding-top: 10px; 
+      padding-bottom: 10px; 
+      color: white; 
+    }
+    
+    .html {width: 90%; background-color: #04AA6D;} 
+    .CSS {width: 80%; background-color: #2196F3;}
+    .JavaScript {width: 65%; background-color: #f44336;} 
+    .React {width: 60%; background-color: #808080;}
+}
+
+section#projects {
+    background-color: #d2b3e4;
+    h3{
+        font-family: "monospace","Courier New";
+    }
+    h4{
+        font-family:"monospace","Courier New";
+    }
+    p{
+        font-family: "Serif","Times New Roman";
+    }
+}
+
+section#Achievement {
+    background-color: #d2b3e4 ;
+    div.mycontainer {
+        width:100%;
+        height: 100%;
+        overflow:auto;
+    }
+      .mycontainer div {
+        width: 33%;  
+        height: 33%;
+        float:left;
+    }
+
+}
+
+section#contact {
+    background-color: #d2b3e4;
+}
+
+
+.contact-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0px;
+}
+
+.contact-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+
+
+
